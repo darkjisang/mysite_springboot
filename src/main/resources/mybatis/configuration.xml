@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias alias="PersonVO" type="com.javaex.vo.PersonVO" />-->
+		<typeAlias alias="GuestBookVO" type="com.javaex.vo.GuestBookVO" /> 
+		<!-- <typeAlias alias="UserVO" type="com.javaex.vo.UserVO" /> 
+		<typeAlias alias="BoardVO" type="com.javaex.vo.BoardVO" /> 
+		<typeAlias alias="GalleryVO" type="com.javaex.vo.GalleryVO" /> 
+		<typeAlias alias="Criteria" type="com.javaex.vo.Criteria" /> --> 
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="mybatis/mappers/guestbook.xml" />
+		<!-- <mapper resource="mybatis/mappers/user.xml" />
+		<mapper resource="mybatis/mappers/board.xml" />
+		<mapper resource="mybatis/mappers/gallery.xml" /> -->
+	</mappers>
+</configuration>
